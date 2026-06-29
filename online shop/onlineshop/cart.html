@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="online.css" />
+</head>
+
+<body class="cart-page">
+    <!-- Page navigation -->
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="online.html">Online Shop</a>
+            <div class="nav-links">
+                <a href="online.html">Home</a>
+                <a href="online.html">Products</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+                <a href="admin.html">Admin</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cart content -->
+    <div class="cart-card">
+        <h1>Your Cart</h1>
+        <p>Items clicked into cart are tracked below.</p>
+        <div class="count-display" id="item-count">0</div>
+        <p>Products added to your cart</p>
+        <div class="cart-items" id="cart-items">
+            <p class="empty-cart">Your cart is empty.</p>
+        </div>
+        <div class="cart-summary" id="cart-summary">
+            <p class="cart-total-label">Total:</p>
+            <p class="cart-total-value" id="cart-total-value">$0.00</p>
+        </div>
+        <button class="checkout" id="checkout-button" href="online.html">Checkout</button>
+        <a class="back-to-shop" href="online.html">Back to Shop</a>
+    </div>
+
+    <script src="online.js"></script>
+</body>
+
+</html>
